@@ -1,1 +1,0 @@
-# GEOG370-Spring2021
