@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5 Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<body>
+
+    <div id="mapid"></div>
+    <style>
+        #mapid{width: 900px; height: 500px;}
+    </style>
+
+    <script>
+        var map = L.map('mapid').setView([35.91, -79.05], 17);
+        L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {}).addTo(map)
+        
+        var memorialIcon = L.icon({
+        iconUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX911iB53eKWndwEe0AZkzSBQedwCjfA08w&usqp=CAU',
+        iconSize: [50,50],
+        });
+
+        var memorialPopup = "Memorial Hall<br/><img src='https://web.archive.org/web/20161017163722if_/http://static.panoramio.com/photos/large/46324432.jpg'width='100px'/>";
+
+        L.marker([35.9111, -79.0520], {icon: memorialIcon}).addTo(map)
+        .bindPopup(memorialPopup)
+        .openPopup();
+        
+        var playmakersIcon = L.icon({
+        iconUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLRWB-kFaGsCe07ZLY64PNsoheqP8_U7dTA&usqp=CAU',
+        iconSize: [50,50],
+        });
+
+        var playmakersPopup = "Historic Playmakers Theater<br/><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLadVh7WqQI08ftCftoIWvOUcmleZXflwDGA&usqp=CAU'width='100px'/>";
+
+        L.marker([35.9120, -79.0504], {icon: playmakersIcon}).addTo(map)
+        .bindPopup(playmakersPopup)
+        .openPopup();
+
+        var campusyIcon = L.icon({
+        iconUrl: 'https://campusy.unc.edu/wp-content/uploads/sites/289/2016/04/Logo-e1467053355237.png',
+        iconSize: [50,50],
+        });
+
+        var campusyPopup = "Campus Y<br/><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyuvLhB1FPWbQoQV2CVbej7GjMd1MaAE6UCw&usqp=CAU'width='100px'/>";
+
+        L.marker([35.9114, -79.0512], {icon: campusyIcon}).addTo(map)
+        .bindPopup(campusyPopup)
+        .openPopup();
+
+        var polylinePoints = [
+        [35.9113, -79.0528],
+        [35.9123, -79.0502],
+        ];            
+      
+        var polyline = L.polyline(polylinePoints).addTo(map);
+        
+        var polygonPoints = [
+        [35.911763, -79.050832],
+        [35.911897, -79.050908],
+        [35.911763, -79.051283],
+        [35.911626, -79.051207]];
+        var poly = L.polygon(polygonPoints).addTo(map);
+
+    </script>
+</body>
+</html>
