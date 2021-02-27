@@ -29,7 +29,7 @@
       var map = L.map('map').setView([38.92052418059088, -77.03221424167879], 14.0);
 
       var ledroitIcon = L.icon({
-        iconUrl: './Data/playground.png',
+        iconUrl: './GEOG370-Spring2021/Homework4/Data/playground.png',
         iconSize: [50,50],
         });
 
@@ -39,10 +39,11 @@
         pointToLayer:function(feature, latlng){
           return L.marker(latlng);}})
         .bindPopup(ledroitPopup)
+        .openPopup()
         .addTo(map);
 
         var greenspaceIcon = L.icon({
-        iconUrl: './Data/park.png',
+        iconUrl: './GEOG370-Spring2021/Homework4/Data/park.png',
         iconSize: [50,50],
         });
 
@@ -55,7 +56,7 @@
         .addTo(map);
 
         var bruceparkIcon = L.icon({
-        iconUrl: './Data/basketball-court.png',
+        iconUrl: './GEOG370-Spring2021/Homework4/Data/basketball-court.png',
         iconSize: [50,50],
         });
 
