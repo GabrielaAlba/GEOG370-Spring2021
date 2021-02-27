@@ -29,7 +29,7 @@
       var map = L.map('map').setView([38.92052418059088, -77.03221424167879], 14.0);
 
       var ledroitIcon = L.icon({
-        iconUrl: './GEOG370-Spring2021/Homework4/Data/playground.png',
+        iconUrl: './Data/playground.png',
         iconSize: [50,50],
         });
 
@@ -39,6 +39,32 @@
         pointToLayer:function(feature, latlng){
           return L.marker(latlng);}})
         .bindPopup(ledroitPopup)
+        .addTo(map);
+
+        var greenspaceIcon = L.icon({
+        iconUrl: './Data/park.png',
+        iconSize: [50,50],
+        });
+
+        var greenspacePopup = "Green Space by Louis Stakes Library<br/><img src='https://150.howard.edu/sites/150.howard.edu/files/small%20Louis%20Stokes.jpg'width='100px'/>";
+
+        var greenspace = L.marker([38.919848, -77.01931], {icon: greenspaceIcon,
+        pointToLayer:function(feature, latlng){
+          return L.marker(latlng);}})
+        .bindPopup(greenspacePopup)
+        .addTo(map);
+
+        var bruceparkIcon = L.icon({
+        iconUrl: './Data/basketball-court.png',
+        iconSize: [50,50],
+        });
+
+        var bruceparkPopup = "Bruce Monroe Community Park<br/><img src='https://www.borderstan.com/files/2015/11/Bruce-Monroe-Community-ParkFINAL.jpg'width='100px'/>";
+
+        var brucepark = L.marker([38.92833055757776, -77.02382], {icon: bruceparkIcon,
+        pointToLayer:function(feature, latlng){
+          return L.marker(latlng);}})
+        .bindPopup(bruceparkPopup)
         .addTo(map);
       
       var ESRI = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -59,6 +85,8 @@
 
       var markers = {
         "The Park at LeDroit":ledroitpark,
+        "Green Space by Louis Stakes Library":greenspace,
+        "Bruce Monroe Community Park":brucepark
       }
 
       L.control.layers(daTiles, markers).addTo(map);
