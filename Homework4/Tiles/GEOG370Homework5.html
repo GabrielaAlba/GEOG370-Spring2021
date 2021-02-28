@@ -29,11 +29,11 @@
       var map = L.map('map').setView([38.92052418059088, -77.03221424167879], 14.0);
 
       var ledroitIcon = L.icon({
-        iconUrl: './GEOG370-Spring2021/Homework4/Data/playground.png',
+        iconUrl: 'https://www.flaticon.com/svg/vstatic/svg/2132/2132631.svg?token=exp=1614479629~hmac=2ac7a5c2773ba151b7dcfe212d20262d',
         iconSize: [50,50],
         });
 
-        var ledroitPopup = "LeDroit Park<br/><img src='https://parkrxamerica.org/uploads/ledroit-2-1453271832.jpg'width='100px'/>";
+        var ledroitPopup = "LeDroit Park - In 1983, this area used to have a large building with many different wings. Nowadays, it is clear that the building was knocked down and replaced with a park. The park is a circular green space with an open grass field as well as a playground. It looks like there are new sidewalk pathways and trees in the area. The direction of the streets on either side of the park appear to be the same as the streets from 1983. <br/><img src='https://parkrxamerica.org/uploads/ledroit-2-1453271832.jpg'width='100px'/>";
 
         var ledroitpark = L.marker([38.9181, -77.0160], {icon: ledroitIcon,
         pointToLayer:function(feature, latlng){
@@ -43,11 +43,11 @@
         .addTo(map);
 
         var greenspaceIcon = L.icon({
-        iconUrl: './GEOG370-Spring2021/Homework4/Data/park.png',
+        iconUrl: 'https://www.flaticon.com/svg/vstatic/svg/1618/1618001.svg?token=exp=1614479706~hmac=0c540bb87f811dda44dc243b99d669b6',
         iconSize: [50,50],
         });
 
-        var greenspacePopup = "Green Space by Louis Stakes Library<br/><img src='https://150.howard.edu/sites/150.howard.edu/files/small%20Louis%20Stokes.jpg'width='100px'/>";
+        var greenspacePopup = "Green Space by Louis Stokes Library - In 1983, this area used to be a parking lot. In the historical image there are at least a dozen or so rows of cars parked in a parking lot beside a U shaped building. Now, the parking lot has been replaced as a green space. The U shaped building to the left of the parking lot is still standing. However, there is a new building in the right section of the old parking lot. This building is Louis Stoke's Health Sciences Library at Howard University. While there used to be a concrete parking lot, the area in between the U shaped building and the library is now a green space with crossing circular and perpendicular pathways.   <br/><img src='https://150.howard.edu/sites/150.howard.edu/files/small%20Louis%20Stokes.jpg'width='100px'/>";
 
         var greenspace = L.marker([38.919848, -77.01931], {icon: greenspaceIcon,
         pointToLayer:function(feature, latlng){
@@ -56,11 +56,11 @@
         .addTo(map);
 
         var bruceparkIcon = L.icon({
-        iconUrl: './GEOG370-Spring2021/Homework4/Data/basketball-court.png',
+        iconUrl: 'https://www.flaticon.com/svg/vstatic/svg/2720/2720687.svg?token=exp=1614479629~hmac=c752143fe257b2b92c65bb60991662d4',
         iconSize: [50,50],
         });
 
-        var bruceparkPopup = "Bruce Monroe Community Park<br/><img src='https://www.borderstan.com/files/2015/11/Bruce-Monroe-Community-ParkFINAL.jpg'width='100px'/>";
+        var bruceparkPopup = "Bruce Monroe Community Park - In 1983, this area used to have a building in the shape of an X with four different rounded wings. In the historical image there also appears to be a small parking lot beside the building. ESRI World imagery shows that the building appears to have been completely knocked down. The parking lot is still present in the same area but a new green space with grass and trees has replaced the old X-shaped building. Nowadays there is a park with three tennis/basketball courts as well as two playground areas on the left and right side of the park.   <br/><img src='https://www.borderstan.com/files/2015/11/Bruce-Monroe-Community-ParkFINAL.jpg'width='100px'/>";
 
         var brucepark = L.marker([38.92833055757776, -77.02382], {icon: bruceparkIcon,
         pointToLayer:function(feature, latlng){
