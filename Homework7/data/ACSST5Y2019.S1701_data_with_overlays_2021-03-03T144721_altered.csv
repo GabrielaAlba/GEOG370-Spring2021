@@ -1,79 +1,79 @@
-GEO_ID,NAME,S1701_C01_001E
-72001,"Adjuntas Municipio, Puerto Rico",17837
-72003,"Aguada Municipio, Puerto Rico",37858
-72005,"Aguadilla Municipio, Puerto Rico",51651
-72007,"Aguas Buenas Municipio, Puerto Rico",25600
-72009,"Aibonito Municipio, Puerto Rico",22974
-72011,"Añasco Municipio, Puerto Rico",26783
-72013,"Arecibo Municipio, Puerto Rico",84713
-72015,"Arroyo Municipio, Puerto Rico",17791
-72017,"Barceloneta Municipio, Puerto Rico",24069
-72019,"Barranquitas Municipio, Puerto Rico",28138
-72021,"Bayamón Municipio, Puerto Rico",173047
-72023,"Cabo Rojo Municipio, Puerto Rico",48273
-72025,"Caguas Municipio, Puerto Rico",128276
-72027,"Camuy Municipio, Puerto Rico",31500
-72029,"Canóvanas Municipio, Puerto Rico",45316
-72031,"Carolina Municipio, Puerto Rico",153020
-72033,"Cataño Municipio, Puerto Rico",24250
-72035,"Cayey Municipio, Puerto Rico",43714
-72037,"Ceiba Municipio, Puerto Rico",11513
-72039,"Ciales Municipio, Puerto Rico",16363
-72041,"Cidra Municipio, Puerto Rico",39484
-72043,"Coamo Municipio, Puerto Rico",38867
-72045,"Comerío Municipio, Puerto Rico",19148
-72047,"Corozal Municipio, Puerto Rico",33262
-72049,"Culebra Municipio, Puerto Rico",1291
-72051,"Dorado Municipio, Puerto Rico",36764
-72053,"Fajardo Municipio, Puerto Rico",30988
-72054,"Florida Municipio, Puerto Rico",11684
-72055,"Guánica Municipio, Puerto Rico",16280
-72057,"Guayama Municipio, Puerto Rico",38730
-72059,"Guayanilla Municipio, Puerto Rico",18447
-72061,"Guaynabo Municipio, Puerto Rico",86529
-72063,"Gurabo Municipio, Puerto Rico",46698
-72065,"Hatillo Municipio, Puerto Rico",39845
-72067,"Hormigueros Municipio, Puerto Rico",15905
-72069,"Humacao Municipio, Puerto Rico",52171
-72071,"Isabela Municipio, Puerto Rico",41397
-72073,"Jayuya Municipio, Puerto Rico",14258
-72075,"Juana Díaz Municipio, Puerto Rico",45748
-72077,"Juncos Municipio, Puerto Rico",38718
-72079,"Lajas Municipio, Puerto Rico",22789
-72081,"Lares Municipio, Puerto Rico",25441
-72083,"Las Marías Municipio, Puerto Rico",8286
-72085,"Las Piedras Municipio, Puerto Rico",37412
-72087,"Loíza Municipio, Puerto Rico",25746
-72089,"Luquillo Municipio, Puerto Rico",18050
-72091,"Manatí Municipio, Puerto Rico",38680
-72093,"Maricao Municipio, Puerto Rico",6075
-72095,"Maunabo Municipio, Puerto Rico",10770
-72097,"Mayagüez Municipio, Puerto Rico",74251
-72099,"Moca Municipio, Puerto Rico",35982
-72101,"Morovis Municipio, Puerto Rico",30880
-72103,"Naguabo Municipio, Puerto Rico",25982
-72105,"Naranjito Municipio, Puerto Rico",28056
-72107,"Orocovis Municipio, Puerto Rico",20876
-72109,"Patillas Municipio, Puerto Rico",16929
-72111,"Peñuelas Municipio, Puerto Rico",20340
-72113,"Ponce Municipio, Puerto Rico",136683
-72115,"Quebradillas Municipio, Puerto Rico",23585
-72117,"Rincón Municipio, Puerto Rico",14013
-72119,"Río Grande Municipio, Puerto Rico",49068
-72121,"Sabana Grande Municipio, Puerto Rico",22443
-72123,"Salinas Municipio, Puerto Rico",28017
-72125,"San Germán Municipio, Puerto Rico",30725
-72127,"San Juan Municipio, Puerto Rico",330713
-72129,"San Lorenzo Municipio, Puerto Rico",37153
-72131,"San Sebastián Municipio, Puerto Rico",36991
-72133,"Santa Isabel Municipio, Puerto Rico",21757
-72135,"Toa Alta Municipio, Puerto Rico",72695
-72137,"Toa Baja Municipio, Puerto Rico",77514
-72139,"Trujillo Alto Municipio, Puerto Rico",66049
-72141,"Utuado Municipio, Puerto Rico",28622
-72143,"Vega Alta Municipio, Puerto Rico",36526
-72145,"Vega Baja Municipio, Puerto Rico",51983
-72147,"Vieques Municipio, Puerto Rico",8603
-72149,"Villalba Municipio, Puerto Rico",22263
-72151,"Yabucoa Municipio, Puerto Rico",33446
-72153,"Yauco Municipio, Puerto Rico",35228
+GEO_ID,NAME,S1701_C01_001E,Population Estimate
+72001,"Adjuntas Municipio, Puerto Rico",17837,17363
+72003,"Aguada Municipio, Puerto Rico",37858,36694
+72005,"Aguadilla Municipio, Puerto Rico",51651,50265
+72007,"Aguas Buenas Municipio, Puerto Rico",25600,24814
+72009,"Aibonito Municipio, Puerto Rico",22974,22108
+72011,"Añasco Municipio, Puerto Rico",26783,26161
+72013,"Arecibo Municipio, Puerto Rico",84713,81966
+72015,"Arroyo Municipio, Puerto Rico",17791,17238
+72017,"Barceloneta Municipio, Puerto Rico",24069,23727
+72019,"Barranquitas Municipio, Puerto Rico",28138,27725
+72021,"Bayamón Municipio, Puerto Rico",173047,169269
+72023,"Cabo Rojo Municipio, Puerto Rico",48273,47515
+72025,"Caguas Municipio, Puerto Rico",128276,124606
+72027,"Camuy Municipio, Puerto Rico",31500,30504
+72029,"Canóvanas Municipio, Puerto Rico",45316,44674
+72031,"Carolina Municipio, Puerto Rico",153020,146984
+72033,"Cataño Municipio, Puerto Rico",24250,23121
+72035,"Cayey Municipio, Puerto Rico",43714,42409
+72037,"Ceiba Municipio, Puerto Rico",11513,10904
+72039,"Ciales Municipio, Puerto Rico",16363,15808
+72041,"Cidra Municipio, Puerto Rico",39484,38307
+72043,"Coamo Municipio, Puerto Rico",38867,38336
+72045,"Comerío Municipio, Puerto Rico",19148,18648
+72047,"Corozal Municipio, Puerto Rico",33262,32293
+72049,"Culebra Municipio, Puerto Rico",1291,1714
+72051,"Dorado Municipio, Puerto Rico",36764,36141
+72053,"Fajardo Municipio, Puerto Rico",30988,29454
+72054,"Florida Municipio, Puerto Rico",11684,11317
+72055,"Guánica Municipio, Puerto Rico",16280,15383
+72057,"Guayama Municipio, Puerto Rico",38730,39465
+72059,"Guayanilla Municipio, Puerto Rico",18447,17623
+72061,"Guaynabo Municipio, Puerto Rico",86529,83728
+72063,"Gurabo Municipio, Puerto Rico",46698,47093
+72065,"Hatillo Municipio, Puerto Rico",39845,39218
+72067,"Hormigueros Municipio, Puerto Rico",15905,15518
+72069,"Humacao Municipio, Puerto Rico",52171,50653
+72071,"Isabela Municipio, Puerto Rico",41397,40423
+72073,"Jayuya Municipio, Puerto Rico",14258,13891
+72075,"Juana Díaz Municipio, Puerto Rico",45748,44679
+72077,"Juncos Municipio, Puerto Rico",38718,38155
+72079,"Lajas Municipio, Puerto Rico",22789,22010
+72081,"Lares Municipio, Puerto Rico",25441,24276
+72083,"Las Marías Municipio, Puerto Rico",8286,7927
+72085,"Las Piedras Municipio, Puerto Rico",37412,37007
+72087,"Loíza Municipio, Puerto Rico",25746,24553
+72089,"Luquillo Municipio, Puerto Rico",18050,17665
+72091,"Manatí Municipio, Puerto Rico",38680,37287
+72093,"Maricao Municipio, Puerto Rico",6075,5430
+72095,"Maunabo Municipio, Puerto Rico",10770,10321
+72097,"Mayagüez Municipio, Puerto Rico",74251,71530
+72099,"Moca Municipio, Puerto Rico",35982,34891
+72101,"Morovis Municipio, Puerto Rico",30880,30335
+72103,"Naguabo Municipio, Puerto Rico",25982,25761
+72105,"Naranjito Municipio, Puerto Rico",28056,27349
+72107,"Orocovis Municipio, Puerto Rico",20876,20220
+72109,"Patillas Municipio, Puerto Rico",16929,16211
+72111,"Peñuelas Municipio, Puerto Rico",20340,19249
+72113,"Ponce Municipio, Puerto Rico",136683,131881
+72115,"Quebradillas Municipio, Puerto Rico",23585,22918
+72117,"Rincón Municipio, Puerto Rico",14013,13656
+72119,"Río Grande Municipio, Puerto Rico",49068,48025
+72121,"Sabana Grande Municipio, Puerto Rico",22443,21712
+72123,"Salinas Municipio, Puerto Rico",28017,27128
+72125,"San Germán Municipio, Puerto Rico",30725,30227
+72127,"San Juan Municipio, Puerto Rico",330713,318441
+72129,"San Lorenzo Municipio, Puerto Rico",37153,35989
+72131,"San Sebastián Municipio, Puerto Rico",36991,35528
+72133,"Santa Isabel Municipio, Puerto Rico",21757,21209
+72135,"Toa Alta Municipio, Puerto Rico",72695,72025
+72137,"Toa Baja Municipio, Puerto Rico",77514,74271
+72139,"Trujillo Alto Municipio, Puerto Rico",66049,63674
+72141,"Utuado Municipio, Puerto Rico",28622,27395
+72143,"Vega Alta Municipio, Puerto Rico",36526,36061
+72145,"Vega Baja Municipio, Puerto Rico",51983,50023
+72147,"Vieques Municipio, Puerto Rico",8603,8386
+72149,"Villalba Municipio, Puerto Rico",22263,21372
+72151,"Yabucoa Municipio, Puerto Rico",33446,32282
+72153,"Yauco Municipio, Puerto Rico",35228,33575
